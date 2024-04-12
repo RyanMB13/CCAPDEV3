@@ -194,7 +194,7 @@ server.post('/submitPost', async function (req, res) {
         }
 
         // Get the number of posts in the database
-        const numPostsResponse = await fetch('http://localhost:9090/getNumPosts');
+        const numPostsResponse = await fetch('https://uniwall.onrender.com/getNumPosts');
         if (!numPostsResponse.ok) {
             throw new Error('Failed to get the number of Posts');
         }
@@ -491,7 +491,7 @@ server.post('/submitEvent', async function (req, res) {
         }
 
         // Get the number of events in the database
-        const numEventsResponse = await fetch('http://localhost:9090/getNumEvents');
+        const numEventsResponse = await fetch('https://uniwall.onrender.com/getNumEvents');
         if (!numEventsResponse.ok) {
             throw new Error('Failed to get the number of events');
         }
