@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "65f04d4e8f535c06708952db"
+  },
+  "event_id": "1",
+  "comment_poster": "Gojo",
+  "comment_date": "3/12/2024",
+  "comment_content": "Throughout heaven and earth, this event alone is the honored event!"
+},
+{
+  "_id": {
+    "$oid": "65f04dbf8f535c06708952dc"
+  },
+  "event_id": "2",
+  "comment_poster": "Sukuna",
+  "comment_date": "11/13/2024",
+  "comment_content": "Stand proud!"
+},
+{
+  "_id": {
+    "$oid": "65f04dca8f535c06708952dd"
+  },
+  "event_id": "3",
+  "comment_poster": "Mahoraga",
+  "comment_date": "9/27/2024",
+  "comment_content": "Rawr!"
+},
+{
+  "_id": {
+    "$oid": "65f04dd08f535c06708952de"
+  },
+  "event_id": "4",
+  "comment_poster": "Megumi",
+  "comment_date": "3/12/2024",
+  "comment_content": "With this event, I summon my jowa."
+},
+{
+  "_id": {
+    "$oid": "65f04dd68f535c06708952df"
+  },
+  "event_id": "1",
+  "comment_poster": "Geto",
+  "comment_date": "3/11/2024",
+  "comment_content": "My brain hurts from all the couples..."
+},
+{
+  "_id": {
+    "$oid": "65f0596b8f535c06708952f0"
+  },
+  "event_id": "5",
+  "comment_poster": "Itadori",
+  "comment_date": "2/9/2024",
+  "comment_content": "Left Right Goodnight!"
+},
+{
+  "_id": {
+    "$oid": "65f05a028f535c06708952f1"
+  },
+  "event_id": "5",
+  "comment_poster": "Choso",
+  "comment_date": "3/11/2024",
+  "comment_content": "This event pierced my heart"
+},
+{
+  "_id": {
+    "$oid": "65f05a1d8f535c06708952f2"
+  },
+  "event_id": "5",
+  "comment_poster": "Todo",
+  "comment_date": "3/11/2024",
+  "comment_content": "Amazing event, brothers!!"
+}]

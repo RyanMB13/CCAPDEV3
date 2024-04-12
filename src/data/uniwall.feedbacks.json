@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "65f1977561f6cd153f338fab"
+  },
+  "post_id": "1",
+  "comment_author": "User123",
+  "comment_date": "2024-03-13",
+  "comment_content": "This is a great post! Thanks for sharing."
+},
+{
+  "_id": {
+    "$oid": "65f1978361f6cd153f338fac"
+  },
+  "post_id": "2",
+  "comment_author": "Guest456",
+  "comment_date": "2024-03-15",
+  "comment_content": "I have a question about the upcoming lecture. Can you provide more details?"
+},
+{
+  "_id": {
+    "$oid": "65f197aa61f6cd153f338fad"
+  },
+  "post_id": "3",
+  "comment_author": "JobSeeker",
+  "comment_date": "2024-03-20",
+  "comment_content": "Thanks for the information about the internships. I'll check it out."
+},
+{
+  "_id": {
+    "$oid": "65f197be61f6cd153f338fae"
+  },
+  "post_id": "5",
+  "comment_author": "ScienceLover",
+  "comment_date": "2024-03-22",
+  "comment_content": "Could someone explain the concept of quantum entanglement mentioned in the lecture?"
+},
+{
+  "_id": {
+    "$oid": "65f197d561f6cd153f338fb0"
+  },
+  "post_id": "3",
+  "comment_author": "MathGeek",
+  "comment_date": "2024-03-18",
+  "comment_content": "Count me in for the study group! Looking forward to it."
+},
+{
+  "_id": {
+    "$oid": "660f8a0d2a1068ed63d46a2a"
+  },
+  "post_id": "1",
+  "comment_author": "User",
+  "comment_date": "4/5/2024, 1:20:13 PM",
+  "comment_content": "sxadda"
+},
+{
+  "_id": {
+    "$oid": "660f8a152a1068ed63d46a30"
+  },
+  "post_id": "1",
+  "comment_author": "User",
+  "comment_date": "4/5/2024, 1:20:21 PM",
+  "comment_content": "cdcsd"
+},
+{
+  "_id": {
+    "$oid": "660f8de00cf71479a4b3ad8d"
+  },
+  "comment_author": "User",
+  "comment_date": "4/5/2024, 1:36:31 PM",
+  "comment_content": "2"
+},
+{
+  "_id": {
+    "$oid": "660f8dff0cf71479a4b3ad91"
+  },
+  "comment_author": "User",
+  "comment_date": "4/5/2024, 1:37:03 PM",
+  "comment_content": "2"
+},
+{
+  "_id": {
+    "$oid": "660f8ff872d044d429c767fb"
+  },
+  "post_id": "1",
+  "comment_author": "User",
+  "comment_date": "4/5/2024, 1:45:28 PM",
+  "comment_content": "as"
+},
+{
+  "_id": {
+    "$oid": "66101213418b485aa161c3e9"
+  },
+  "post_id": "1",
+  "comment_author": "W2E",
+  "comment_date": "4/5/2024, 11:00:35 PM",
+  "comment_content": "sdasdsadasda"
+}]

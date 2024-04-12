@@ -1,0 +1,40 @@
+<!-- event page -->
+<link href="/css/maincomments.css" rel="stylesheet" />
+
+<body>
+  {{> header }}
+  {{> nav }}
+
+  <div class="post">
+    <div>
+      <!-- Add Edit and Delete Event buttons here -->
+    <button type="button" class="btn btn-danger delete-post-btn" data-post-id="{{post.post_id}}">Delete Post</button>
+    <button type="button" class="btn btn-warning edit-post-btn" data-post-id="{{post.post_id}}">Edit Post</button>
+    <h3 id="postTitle">{{post.post_title}}</h3>
+    <p>Posted by: <a href="/profile/{{post.post_poster}}">{{post.post_poster}}</a> | Date: {{post.post_date}}</p>
+    <p id="postContent">{{post.post_content}}</p>
+    </div>
+
+    <div class="like-dislike">
+      <button type="button" class="btn btn-success like-btn" data-post-id="{{post.post_id}}">Like <span class="like-count">{{post.post_likes}}</span></button>
+      <button type="button" class="btn btn-danger dislike-btn" data-post-id="{{post.post_id}}">Dislike <span class="dislike-count">{{post.post_dislikes}}</span></button>
+    </div>
+
+        <form id="commentForm" action="/submitComment" method="POST">
+          <input type="hidden" id="postId" name="postId" value="{{post.post_id}}">
+          <input type="text" placeholder="Add a comment..." class="comment-input" name="commentText" maxlength="500">
+          <button type="submit" class=" btn btn-primary btn-add-comment">Add Comment</button>
+        </form>
+
+        {{#each feedback}}
+          <div class="comment">
+            <p><strong>{{comment_author}}</strong> | {{comment_date}}</p>
+            <p>{{comment_content}}</p>
+          </div> 
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/maincomments.js"></script>
+</body>

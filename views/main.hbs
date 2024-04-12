@@ -1,0 +1,55 @@
+<!-- main -->
+<link href="/css/mainpage.css" rel="stylesheet" />
+
+<body>
+    {{> header }}
+
+    {{> nav }}
+
+    <section>
+        <!-- Most Recent Posts Section -->
+        <h2>Welcome to UniWall</h2>
+        <button id="createPostBtn" class="btn btn-success">Create Post</button>
+
+        <div class="post card post-form" style="display: none;">
+            <form id="createPostForm" action="/submitPost" method="POST"> <!-- Updated action attribute -->
+                <div class="mb-3">
+                    <label for="postTitle" class="form-label">Post Title</label>
+                    <input type="text" class="form-control" id="postTitle" name="postTitle" required>
+                </div>
+                <div class="mb-3">
+                    <label for="postContent" class="form-label">Post Content</label>
+                    <textarea class="form-control" id="postContent" name="postContent" rows="3" required></textarea>
+                </div>
+
+                <!-- Hidden input field to store current date and time -->
+                <input type="hidden" id="postDate" name="postDate">
+
+                <button type="submit" class="btn btn-primary">Post it !</button>
+            </form>
+        </div>
+
+        <div></div>
+
+        <div class="post">
+            {{#each post_data}}
+            {{#if visible}}
+            <div class="post">
+                <div>
+                    <h3>{{post_title}}</h3>
+                    <p>Posted by: <a href="/profile/{{post_author}}">{{post_author}}</a> | Date: {{post_date}}</p>
+                    <p>{{post_content}}</p>
+                    <a href="/post/{{post_id}}" class="btn btn-primary">View Comments</a>
+                </div>
+            </div>
+            {{/if}}
+            {{/each}}
+
+        </div>
+    </section>
+
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

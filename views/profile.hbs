@@ -1,0 +1,43 @@
+<!-- profile -->
+<link href="/css/profile.css" rel="stylesheet"/>
+<body>
+    {{> header }}
+
+  {{> nav }}
+    
+    <main>
+        <div class="profile-info">
+            <img src="{{profile.profile_picture}}" >
+            <div class="user-details">
+                <h2>{{profile.profile_name}}</h2>
+                <p>{{profile.profile_course}}</p>
+            </div>
+        </div>
+
+        <div class="user-actions">
+            <button id="editProfileBtn">Edit Profile</button> 
+        </div>
+
+        <div class="user-posts">
+            <h2>User Posts</h2>
+            {{#each post}}
+            <div class="post">
+                <h3>{{post_title}}</h3>
+                <p>Date: {{post_date}}</p>
+                <p>{{post_content}}</p>
+            </div>
+            {{/each}}
+        </div>
+
+        <div class="badges">
+            <h2>Badges</h2>
+            <div class="badge bg-success text-light">DLSU Student</div>
+            <div class="badge bg-danger text-light">UP Student</div>
+            <div class="badge bg-warning ">UST Student</div>
+            <div class="badge bg-success text-light">DLSU Student Goverment Member</div>
+            <div class="badge text-dark">+</div>
+        </div>
+    </main>
+
+    <script src="/js/profile.js"></script>
+</body>

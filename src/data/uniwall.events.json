@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "65f023146f7f44d89f4e5522"
+  },
+  "event_title": "ADMU: On the Wings of Love",
+  "event_poster": "Ate Neo",
+  "event_date": "February 5, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "1",
+  "event_likes": 15,
+  "event_dislikes": 14,
+  "event_type": "ADMU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f02bad69e9f900bb720706"
+  },
+  "event_title": "DLSU Cupid's Arrow",
+  "event_poster": "Juan Archer",
+  "event_date": "February 7, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "2",
+  "event_dislikes": 17,
+  "event_likes": 110,
+  "event_type": "DLSU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f02c0769e9f900bb72070e"
+  },
+  "event_title": "UST Pusuan",
+  "event_poster": "jUST swimming",
+  "event_date": "February 6, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "3",
+  "event_dislikes": 2,
+  "event_likes": 34,
+  "event_type": "UST",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f056858f535c06708952e9"
+  },
+  "event_title": "UP: Usapang Pagmamahal",
+  "event_poster": "ate Dili Man",
+  "event_date": "February 3, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "4",
+  "event_dislikes": 2,
+  "event_likes": 34,
+  "event_type": "UP",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f059068f535c06708952ee"
+  },
+  "event_title": "I love FEU",
+  "event_poster": "Fernando Eduardo Ubas",
+  "event_date": "February 5, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "5",
+  "event_dislikes": 6,
+  "event_likes": 14,
+  "event_type": "FEU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05bdf8f535c06708952f4"
+  },
+  "event_title": "ADMU: Love at First Flight",
+  "event_poster": "Ate Neo",
+  "event_date": "February 5, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "6",
+  "event_dislikes": 62,
+  "event_likes": 124,
+  "event_type": "ADMU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05c3b8f535c06708952f5"
+  },
+  "event_title": "DLSU: Taft Love",
+  "event_poster": "Juan Archer",
+  "event_date": "February 9, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "7",
+  "event_dislikes": 52,
+  "event_likes": 93,
+  "event_type": "DLSU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05c708f535c06708952f6"
+  },
+  "event_title": "UST Heart's Day",
+  "event_poster": "jUST swimming",
+  "event_date": "February 6, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "8",
+  "event_dislikes": 1,
+  "event_likes": 4,
+  "event_type": "UST",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05cc78f535c06708952f7"
+  },
+  "event_title": "Sunken Garden Haranahan",
+  "event_poster": "ate Dili Man",
+  "event_date": "February 3, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "9",
+  "event_dislikes": 12,
+  "event_likes": 54,
+  "event_type": "UP",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05cf08f535c06708952f8"
+  },
+  "event_title": "Piyu are the One",
+  "event_poster": "Fernando Eduardo Ubas",
+  "event_date": "February 5, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "10",
+  "event_dislikes": 6,
+  "event_likes": 14,
+  "event_type": "FEU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05def8f535c06708952f9"
+  },
+  "event_title": "ADMU: Soaring, Flying",
+  "event_poster": "Ate Neo",
+  "event_date": "February 5, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "11",
+  "event_dislikes": 62,
+  "event_likes": 124,
+  "event_type": "ADMU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05e898f535c06708952fc"
+  },
+  "event_title": "In Our Hearts, Forever!",
+  "event_poster": "Juan Archer",
+  "event_date": "February 9, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "12",
+  "event_dislikes": 52,
+  "event_likes": 93,
+  "event_type": "DLSU",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05f168f535c06708952fd"
+  },
+  "event_title": "Tiger's Roaring Love",
+  "event_poster": "jUST swimming",
+  "event_date": "February 6, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "13",
+  "event_dislikes": 1,
+  "event_likes": 4,
+  "event_type": "UST",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05f4a8f535c06708952fe"
+  },
+  "event_title": "UP: Diligan",
+  "event_poster": "ate Dili Man",
+  "event_date": "February 3, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "14",
+  "event_dislikes": 12,
+  "event_likes": 54,
+  "event_type": "UP",
+  "visible": "true"
+},
+{
+  "_id": {
+    "$oid": "65f05fa48f535c06708952ff"
+  },
+  "event_title": "Tamaraw's Troubles",
+  "event_poster": "Fernando Eduardo Ubas",
+  "event_date": "February 5, 2024",
+  "event_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan rhoncus est eu congue.",
+  "event_id": "15",
+  "event_dislikes": 8,
+  "event_likes": 16,
+  "event_type": "FEU",
+  "visible": true
+},
+{
+  "_id": {
+    "$oid": "66100996b5296874c35093a3"
+  },
+  "event_title": "test",
+  "event_poster": "W2E",
+  "event_date": "112",
+  "event_content": "21231",
+  "event_id": "16",
+  "event_likes": 0,
+  "event_dislikes": 0,
+  "event_type": "ADMU",
+  "visible": false
+},
+{
+  "_id": {
+    "$oid": "66100c0fdcb0a7ba46bd6383"
+  },
+  "event_title": "sdsdsdsds",
+  "event_poster": "W2E",
+  "event_date": "23232",
+  "event_content": "sdsdsdsd",
+  "event_id": "17",
+  "event_likes": 0,
+  "event_dislikes": 0,
+  "event_type": "ADMU",
+  "visible": true
+}]

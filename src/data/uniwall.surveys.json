@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "65f28ca6b7dd9c0b2255aa4d"
+  },
+  "survey_id": "1",
+  "survey_title": "A Study on the Perspectives of Undergraduate College Students from Various Universities towards the practice of Coding",
+  "survey_author": "Juan Archer",
+  "survey_content": "Helloo po UniWall! I'm doing a study on the perceptions of undergraduate students from any university on coding. Please answer my survey: https://forms.gle/survey1-notreallink",
+  "survey_date": "2024-02-17",
+  "survey_status": "Active"
+},
+{
+  "_id": {
+    "$oid": "65f28ca6b7dd9c0b2255aa4e"
+  },
+  "survey_id": "2",
+  "survey_title": "A Study on the Perspectives of Undergraduate College Students in Manila that were previously based in Mindanao",
+  "survey_author": "Ate Neo",
+  "survey_content": "Magandang hapon po sa inyong lahat! Humihingi po kami ng tulong sa mga willing mag volunteer sa isang sarbey patungkol sa mga pananaw ng iba't ibang mga estudyante na galing Mindanao at pumunta sa Maynila upang makapag-aral sa mga Unibersidad dito. Ito po ang link: https://forms.gle/survey2-notreallink",
+  "survey_date": "2024-02-16",
+  "survey_status": "closed"
+},
+{
+  "_id": {
+    "$oid": "65f28ca6b7dd9c0b2255aa4f"
+  },
+  "survey_id": "3",
+  "survey_title": "A Study on People's Personal Defining Factors of a Comfortable Room",
+  "survey_author": "jUST Swimming",
+  "survey_content": "Hi guys !! Please help me with my thesis! I am an HRM student conducting a survey on what people want most when they think of a comfortable room. Please answer my survey: https://forms.gle/survey3-notreallink",
+  "survey_date": "2024-02-15",
+  "survey:_status": "Active"
+},
+{
+  "_id": {
+    "$oid": "65f28ca6b7dd9c0b2255aa50"
+  },
+  "survey_id": "4",
+  "survey_title": "A Study on the Perspectives of People on the President of the Philippines",
+  "survey_author": "ate Dili Man",
+  "survey_content": "Hello po, ako si ate Dili Man! mayroon po akong sarbey na pwedeng sagutan ng lahat ng mga tao patungkol sa kanilang pananaw sa Presidente ng Pilipinas: https://forms.gle/survey4-notreallink",
+  "survey_date": "2024-02-14",
+  "survey_status": "Active"
+},
+{
+  "_id": {
+    "$oid": "65f28ca6b7dd9c0b2255aa51"
+  },
+  "survey_id": "5",
+  "survey_title": "A Study on the Effect of Playing Instruments on the Hands of Musicians",
+  "survey_author": "Fernando Eduardo Ubas",
+  "survey_content": "Hey hey hey!! If you have been playing any instrument for at least 3-4 years, I am conducting a survey on musician's hand muscles. Please answer my survey: https://forms.gle/survey5-notreallink",
+  "survey_date": "2024-02-20",
+  "survey_status": "Active"
+}]

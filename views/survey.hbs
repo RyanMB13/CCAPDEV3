@@ -1,0 +1,50 @@
+<!-- survey -->
+<link href="/css/survey.css" rel="stylesheet"/>
+<body>
+    {{> header }}
+
+  {{> nav }}
+ <section>
+    <!-- Most Recent Posts Section -->
+    <h2>Survey Assistance</h2>
+
+    <p></p>
+
+    <div class="post card post-form">
+      <form id="createPostForm">
+        <div class="mb-3">
+            <label for="postTitle" class="form-label">Survey Title</label>
+            <input type="text" class="form-control" id="postTitle" required>
+        </div>
+        <div class="mb-3">
+            <label for="postContent" class="form-label">Survey Description</label>
+            <textarea class="form-control" id="postContent" rows="3" required></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="postImage" class="form-label">Upload Image</label>
+          <input type="file" class="form-control" id="postImage">
+      </div>
+
+        <button type="submit" class="btn btn-primary">Create Post</button>
+      </form>
+    </div>
+
+    <div class="post">
+      {{#each survey_data}}
+      <div class="post">
+        <div>
+          <h3>{{survey_title}}</h3>
+          <p>Posted by: <a href="/survey/{{survey_author}}">{{survey_author}}</a> | Date: {{survey_date}}</p>
+          <p>{{survey_content}}</p>
+         <p>Status: {{survey_status}}</p>
+        <select id="sortDropdown" class=" form-select-sm">
+            <option value="recent">---</option>
+            <option value="popular">Answered!</option>
+      
+          </select>
+      </div>
+      <script src="/js/surveycomment.js"></script>
+    </div>
+    {{/each}}
+  </section>
+</body>

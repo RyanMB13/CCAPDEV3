@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(231, 236, 238);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: rgb(250, 250, 252);
+    margin-left: 20px;
+  }
+  
+  header{ 
+    background-color: rgb(27, 150, 27);
+    color: white;
+    padding:1em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img {
+    border-radius: 50%;
+    cursor: pointer;
+    width:60px;
+}
+  
+  nav {
+    background-color: rgb(53, 50, 50);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    background-color: rgba(131, 128, 128, 0.621);
+  }
+  
+  .title {
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+}
+
+.post {
+    flex: 0 0 calc(30% - 20px); 
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+
+.post h3 {
+    margin-bottom: 10px;
+}
+
+.post p {
+    color: #555;
+}
+
+.post button {
+    padding: 8px 16px;
+}
+
+
+.univs {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.univs button {
+    padding: 8px 16px;
+    width: 25%;
+    font-weight: bold;
+    margin-inline: 5px;
+}
+
+.btn-outline-warning:hover {
+    color: white !important;
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(27, 150, 27, 0.4); /* Same color scheme as header */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: rgb(250, 250, 252); /* Light gray background */
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  width: 80%; /* 80% width */
+  max-width: 600px; /* Max width for larger screens */
+}
+
+/* Close button */
+.close {
+  color: rgb(53, 50, 50); /* Dark gray color */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Additional styles for modal content */
+.modal-header,
+.modal-footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: rgb(27, 150, 27); /* Same color as header */
+}
+
+.modal-body {
+  margin-bottom: 20px;
+  color: #555; /* Dark gray text color */
+}
+
+.modal-footer {
+  border-top: 1px solid #ccc;
+}
+
+.modal-footer button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: rgb(27, 150, 27); /* Same color as header */
+  color: #fff; /* White text color */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modal-footer button:hover {
+  background-color: rgb(20, 110, 20); /* Darker shade for hover effect */
+}

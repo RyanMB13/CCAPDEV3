@@ -1,0 +1,32 @@
+<!-- login -->
+<link href="/css/login.css" rel="stylesheet"/>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form class="login-form" action="/login" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="user" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="pass" name="pass" required>
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="save_password" name="save_password">
+                <label class="form-check-label" for="save_password">Remember me</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-outline-success">Login</button>
+            </div>
+            <div class="form-register">
+                <span>Don't have an account?</span>
+                <a href="/register">Register</a>
+            </div>
+            <div class="form-back">
+              <a href="/main">Back to Main Page</a>
+            </div>
+        </form>
+    </div>
+    <script src="/js/login.js"></script>
+</body>

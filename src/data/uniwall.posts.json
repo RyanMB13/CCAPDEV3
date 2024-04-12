@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "65f05dff265fec33eb52b359"
+  },
+  "post_title": "Day In a life of a lasallian",
+  "post_author": "W2E",
+  "post_date": "Oct 4,2003",
+  "post_content": "Yo, picture this – it's a Lasallian day, right? The sun's just waking up, throwing light on a campus buzzing with energy. You step into class, and it's like a brainpower party in there. Ideas bouncing off the walls, all thanks to that St. John Baptist de La Salle vibe.",
+  "post_id": "1",
+  "post_dislikes": 5,
+  "post_likes": 23,
+  "visible": true
+},
+{
+  "_id": {
+    "$oid": "65f1902261f6cd153f338f96"
+  },
+  "post_id": "2",
+  "post_title": "Exciting Research Opportunities in Computer Science",
+  "post_author": "ProfessorSmith",
+  "post_date": "2024-03-13",
+  "post_content": "Dear students, we have several exciting research opportunities available in the field of computer science. If you're passionate about cutting-edge technology and want to contribute to groundbreaking projects, please reach out to me for more details.",
+  "post_dislikes": 44,
+  "post_likes": 233,
+  "visible": true
+},
+{
+  "_id": {
+    "$oid": "65f1905161f6cd153f338f97"
+  },
+  "post_id": "3",
+  "post_title": "Study Group for Advanced Mathematics Course",
+  "post_author": "MathWizard",
+  "post_date": "2024-03-18",
+  "post_content": "Calling all students enrolled in the Advanced Mathematics course! Let's form a study group to tackle complex topics and help each other succeed. If you're interested, reply to this post with your availability and preferred meeting times.",
+  "post_dislikes": 20,
+  "post_likes": 5,
+  "visible": true
+},
+{
+  "_id": {
+    "$oid": "65f1906761f6cd153f338f98"
+  },
+  "post_id": "4",
+  "post_title": "Internship Opportunities at Local Tech Companies",
+  "post_author": "CareerAdvisor",
+  "post_date": "2024-03-20",
+  "post_content": "Attention students! Numerous local tech companies are offering internship opportunities for talented individuals. Gain real-world experience, expand your network, and kickstart your career. Check the career services office for more information.",
+  "post_dislikes": 43,
+  "post_likes": 234,
+  "visible": true
+},
+{
+  "_id": {
+    "$oid": "65f1907d61f6cd153f338f99"
+  },
+  "post_id": "5",
+  "post_title": "Upcoming Guest Lecture on Quantum Computing",
+  "post_author": "PhysicsEnthusiast",
+  "post_date": "2024-03-15",
+  "post_content": "Join us for an insightful guest lecture on Quantum Computing by Dr. Anderson. This is a fantastic opportunity to expand your knowledge in the fascinating world of quantum physics. Save the date and don't miss out!",
+  "post_dislikes": 12,
+  "post_likes": 60,
+  "visible": true
+},
+{
+  "_id": {
+    "$oid": "661008ecb5296874c350939a"
+  },
+  "post_title": "test",
+  "post_author": "W2E",
+  "post_date": "2024-04-05",
+  "post_content": "test",
+  "post_id": "11",
+  "post_likes": 0,
+  "post_dislikes": 0,
+  "visible": true
+}]

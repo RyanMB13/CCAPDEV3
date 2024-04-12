@@ -1,0 +1,70 @@
+<!-- events -->
+<link href="/css/events.css" rel="stylesheet"/>
+<body>
+  {{> header }}
+
+  {{> nav }}
+
+  <section class="title">
+    <!-- Add Event Button -->
+    <button type="button" id="btnAddEvent" class="btn btn-primary" onclick="showAddEventModal()">+ Add Event</button>
+  </section>
+
+  <div class="univs">
+    <button type="button" id="btnALL" class="btn btn-outline-dark">ALL</button>
+    <button type="button" id="btnADMU" class="btn btn-outline-primary">ADMU</button>
+    <button type="button" id="btnDLSU" class="btn btn-outline-success">DLSU</button>
+    <button type="button" id="btnUST" class="btn btn-outline-warning">UST</button>
+    <button type="button" id="btnUP" class="btn btn-outline-danger">UP</button>
+    <button type="button" id="btnFEU" class="btn btn-outline-secondary">FEU</button>    
+  </div>
+
+  <div class="events">
+    {{#each event_data}}
+      {{#if visible}}
+        <div class="post" id="post{{event_type}}">
+          <div>
+            <h3>{{event_title}}</h3>
+            <p>Posted by: <a href="/profile/{{event_poster}}">{{event_poster}}</a> | Date: {{event_date}}</p>
+            <p>{{event_content}}</p>
+            <a href="/event/{{event_id}}" class="btn btn-primary">View Event</a>
+          </div>
+        </div>
+      {{/if}}
+    {{/each}}
+  </div> 
+  
+<!-- Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" onclick="hideAddEventModal()">&times;</span>
+    <h2>Add New Event</h2>
+    <form id="eventForm" onsubmit="submitEvent(event)">
+      <label for="eventTitle">Event Title:</label><br>
+      <input type="text" id="eventTitle" name="eventTitle" required><br><br>
+      
+      <label for="eventDate">Event Date:</label><br>
+      <input type="text" id="eventDate" name="eventDate" required><br><br>
+      
+      <label for="eventContent">Event Content:</label><br>
+      <textarea id="eventContent" name="eventContent" required></textarea><br><br>
+      
+      <label for="eventType">Event Type:</label><br>
+      <select id="eventType" name="eventType">
+        <option value="ADMU">ADMU</option>
+        <option value="DLSU">DLSU</option>
+        <option value="UST">UST</option>
+        <option value="UP">UP</option>
+        <option value="FEU">FEU</option>
+      </select><br><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
+  <script src="/js/events.js"></script>
+</body>
