@@ -25,7 +25,7 @@ server.use(express.static('public'));
 
 const mongoose = require('mongoose');
 const ObjectId = mongoose.Types.ObjectId;
-mongoose.connect('mongodb://127.0.0.1:27017/uniwall');
+mongoose.connect('mongodb+srv://ryanmatthewbautista:UqeBQFCgtfs7yjNZ@uniwall.mkaxdc0.mongodb.net/');
 
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
